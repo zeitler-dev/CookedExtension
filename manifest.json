@@ -1,0 +1,14 @@
+{
+    "name": "Cooked Redicred",
+    "version": "1.0.0",
+    "description": "Redirects a page to cooked.wiki",
+    "manifest_version": 3,
+    "author": "Alex Zeitler",
+    "action":{
+        "default_title": "Cooked"
+    },
+    "permissions": ["activeTab", "scripting"],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
